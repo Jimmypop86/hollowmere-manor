@@ -1,5 +1,5 @@
 // Offline support for Hollowmere. build.ps1 fills in the version and the file list.
-const CACHE = 'hollowmere-20261024-161551';
+const CACHE = 'hollowmere-20261024-161610';
 const FILES = ['./','./index.html','./manifest.webmanifest','./privacy.html','./fonts/IMFellEnglish-400-italic.woff2','./fonts/IMFellEnglish-400-normal.woff2','./fonts/IMFellEnglishSC-400-normal.woff2','./fonts/JetBrainsMono-500-normal.woff2','./fonts/LICENSES.txt','./fonts/Spectral-400-italic.woff2','./fonts/Spectral-400-normal.woff2','./fonts/Spectral-600-normal.woff2','./icons/apple-touch-icon.png','./icons/favicon-32.png','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png'];
 
 self.addEventListener('install', e => {
